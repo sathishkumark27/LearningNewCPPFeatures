@@ -1,0 +1,37 @@
+Learnings: 
+1) reference -- Done
+2)Point
+3) write a c++ module using classes like design example for our Autoware stuff so that it can be explained in interview
+
+----------
+4) Move Constructor and Move Assignment --  Done
+
+6) Shared pointer, smart pointer unique pointer etc..
+7) type (§11.5). To use a type X as a key, we must define hash<X>. The standard library does that for us for common types, such as std::string.
+8) Practice lambda expressions
+9) Nested Templates
+10) Fold Expressions and  Forwarding Arguments  --> to simplify variadic Templates
+11) Hash implementation for user defined types as described in 11.5
+12) Operator overloading
+13)  Stream Iterators
+14) implement dequeue
+15) A stack can also be used to implement a recursive algorithm iteratively. (This is a good exercise! Take a
+    simple recursive algorithm and implement it iteratively.)
+16) popAT() 3.3
+17) Design patterns -- spend 2 days
+18) pre-order/in-order/post-order successor/predecessor
+
+
+
+
+
+
+======================================
+
+Speed up:
+make changes to do the computation at compile time -- 
+1) constexpr
+3) static_assert
+4) inline
+5) GCC automatically inlines member functions defined "within the class body" of C++ programs even if they are not explicitly declared inline. -- https://gcc.gnu.org/onlinedocs/gcc-4.0.0/gcc/Inline.html
+

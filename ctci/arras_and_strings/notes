@@ -1,0 +1,5 @@
+1. Where ever we use hashmap there we can use array with key as index and value is placed at that index.
+
+2. if you want move string to insert something use stack and put ahe chars in stack when you encounter 
+a char to replace push the chars which you want to inset, then pop from starting to get the result.
+use vector list for stack
